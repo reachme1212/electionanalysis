@@ -24,11 +24,11 @@
 # counties = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
 # for county, voters in counties.items():
 #     print(f"{county} county has  {voters}  registered voters")
-# #     
+# [] is list {}is dictionary [{}]= list of dictionaries    
 voting_data=[{"county":"Arapahoe", "registered_voters": 422829}, 
 {"county":"Denver", "registered_voters": 463353}, {"county":"Jefferson", "registered_voters": 432438}]
-for county, voters in voting_data.dict.items():
-    print(+county+ str(voters))
+for county in voting_data:
+    print(f'{county["county"]} county has {county["registered_voters"]:3,}  registered voters')
 # not sure how to print comma in voters number with f string 
 #print(f'{i["registered_voters"]:,d}')
 # my_votes = int(input("How many votes did you get in the election? \n"))
