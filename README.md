@@ -20,22 +20,22 @@
 
 **Summary**
    
-    The analysis of the election data shows that:There were 369,711 votes cast in the election totally,Below are the county name and candidate names in this election data.
+    The analysis of the election data shows that total votes cast 369,711 ,Below are the county name and candidate names in this election data.
     
     County Names:
         Jefferson
         Denver
         Arapahoe
+
     Candidates Names :
         Charles Casper Stockham 
         Diana DeGette
         Raymon Anthony Doane
     
 ## Diana DeGette is the winner of this election. Congratulations!!!
- 
-    **The Results of the election analysis are as follows:**
-![output](Resources/Pypoll_output_final.PNG)  
 
+**The Results of the election analysis are as follows:**
+![output](Resources/Pypoll_output_final.PNG)  
 
 **Election-Audit Summary:**
     This code can be refactored in the future, if the election commission decided to add new information in to this election data file like age ,zip code etc. for ex : we can create bins to make age ranges and see what the vote count for different age groups like or what is the total population of particular zip code and vote turnover based on zip code.
