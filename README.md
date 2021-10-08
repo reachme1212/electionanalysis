@@ -31,7 +31,7 @@
         Diana DeGette
         Raymon Anthony Doane
     
-## Diana DeGette is the winner of this election. Congradulations!!!
+## Diana DeGette is the winner of this election. Congratulations!!!
  
     **The Results of the election analysis are as follows:**
 ![output](Resources/Pypoll_output_final.PNG)  
