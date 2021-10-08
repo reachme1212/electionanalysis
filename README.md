@@ -34,7 +34,7 @@
 ## Diana DeGette is the winner of this election. Congradulations!!!
  
     **The Results of the election analysis are as follows:**
-![Image of output](electionanalysis\Resources\Pypoll_output_final.PNG)  
+![output](Resources\Pypoll_output_final.PNG)  
 
 
 **Election-Audit Summary:**
