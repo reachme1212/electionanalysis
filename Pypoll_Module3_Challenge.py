@@ -51,7 +51,7 @@ county_vote_list=[]
 for county_name in county_votes:
     cvotes=county_votes[county_name]
     cvote_percentage= (float(cvotes)/float(total_votes))*100
-    county_data=(f'{county_name}: {cvote_percentage:.1f}% ({cvotes:2,})  ')  
+    county_data=(f'{county_name}: {cvote_percentage:.1f}% ({cvotes:2,})\n')  
     county_vote_list.append(county_data)
     #print(county_data)           
     if( cvotes > win_county_votecount) and (cvote_percentage > win_county_percentage):
@@ -63,7 +63,7 @@ candidate_data_list=[]
 for candidate_name in candidate_votes:
     votes=candidate_votes[candidate_name]
     vote_percentage= (float(votes)/float(total_votes))*100
-    candidate_data=(f'{candidate_name}: {vote_percentage:.1f}% ({votes:2,})')    
+    candidate_data=(f'{candidate_name}: {vote_percentage:.1f}% ({votes:2,})\n')    
     candidate_data_list.append(candidate_data)
     if( votes > win_count) and (vote_percentage > win_percentage):
         win_count=votes
