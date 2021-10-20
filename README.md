@@ -2,8 +2,8 @@
 
 **Overview of Election Audit:**
 
-    We received the project from Colorado Board of elections employee , 
-    task is to complete election audit of a recent 
+    I received the project from Colorado Board of elections employee , 
+    my task is to complete election audit of a recent 
     congressional election for 3 county's in Colorado,
     below are the questions we are trying to answer in this analysis.
 
